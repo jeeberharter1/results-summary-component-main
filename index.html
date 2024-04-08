@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="/src/styles.css">
+
+  <title>Results summary component</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="left">
+      <h1 class="title">Your Result</h1>
+
+      <div class="score-container">
+        <h2 class="score" id="average-score">--</h2>
+        <span>of 100</span>
+      </div>
+
+      <div class="result-container">
+        <h3 class="result">Great</h3>
+        <span>
+          You scored higher than 65% of the people who have taken these tests.
+        </span>
+      </div>
+    </div>
+
+    <div class="right">
+      <h2 class="summary">Summary</h2>
+
+      <div class="categories-container">
+        <div class="category-container">
+          <div class="category">
+            <img src="/assets/images/icon-reaction.svg" alt="">
+            <span>Reaction</span>
+          </div>
+
+          <div class="category-score">
+            <b id="score">--</b> / 100
+          </div>
+        </div>
+
+        <div class="category-container">
+          <div class="category">
+            <img src="/assets/images/icon-memory.svg" alt="">
+            <span>Memory</span>
+          </div>
+
+          <div class="category-score">
+            <b id="score">--</b> / 100
+          </div>
+        </div>
+
+        <div class="category-container">
+          <div class="category">
+            <img src="/assets/images/icon-verbal.svg" alt="">
+            <span>Verbal</span>
+          </div>
+
+          <div class="category-score">
+            <b id="score">--</b> / 100
+          </div>
+        </div>
+
+        <div class="category-container">
+          <div class="category">
+            <img src="/assets/images/icon-visual.svg" alt="">
+            <span>Visual</span>
+          </div>
+
+          <div class="category-score">
+            <b id="score">--</b> / 100
+          </div>
+        </div>
+      </div>
+
+      <button class="continue-btn">Continue</button>
+    </div>
+  </div>
+
+  <script type="module" src="./src/index.js"></script>
+</body>
+</html>

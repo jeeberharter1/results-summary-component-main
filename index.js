@@ -17,7 +17,6 @@ fetch('data.json')
     
     // Set category data
     Array.from(categories).map((category, index) => {
-      console.log(category);
       category.firstElementChild.src = data[index].icon;
       category.lastElementChild.innerHTML = data[index].category;
     })

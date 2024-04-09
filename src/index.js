@@ -1,6 +1,6 @@
 // Retrieve data
-let response = await fetch('../data.json');
-let data = await response.json();
+let response = fetch('../data.json');
+let data = response.json();
 
 // Variables
 const scores = document.querySelectorAll('#score');

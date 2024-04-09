@@ -1,7 +1,9 @@
 // Variables
-const scores = document.querySelectorAll('#score');
+const scores = document.querySelectorAll('.score-text');
 const averageScore = document.getElementById('average-score');
 const categories = document.querySelectorAll('.category');
+
+console.log(Array.from(scores));
 
 let totalScore = 0;
 
